@@ -5,9 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #21232A;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.joke {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22%;
+}
+
+input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  padding: 15px;
+  outline: none;
+  width: 250px;
+}
+
+.btn {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 15px;
+  border: none;
+  background-color: #125FCB;
+  color: white;
+  outline: none;
+}
+
+.joke-joke {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  gap: 15px;
+}
+
+
